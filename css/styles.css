@@ -1,0 +1,240 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.dark{
+    background: hsl(0, 0%, 8%);
+}
+.dark span,h2{    
+    color: hsl(0, 0%, 98%);
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: hsl(0, 0%, 98%);
+}
+
+
+.nav-item a{
+    color: hsl(0, 0%, 41%);
+    text-transform: capitalize;
+}
+
+.dropdown-menu{
+    border:none;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.dropdown-menu li,img{
+    font-size: 15px;
+    padding: 10px;
+}
+
+.offcanvas-body{
+    font-weight:bold;
+    color:hsl(0, 0%, 41%);
+}
+
+.Ingresar{
+    display: block;
+    font-family: 'Epilogue', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.buttons-1{
+    font-size: 18px;
+    border: none;
+    background-color: hsl(0, 0%, 98%);
+    margin: 5px;
+    padding: 10px 50px;
+}
+.buttons-2{
+    font-size: 18px;
+    border: 1px solid hsl(0, 0%, 8%);
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 98%);
+    margin: 5px;
+    padding: 10px 100px;
+}
+
+
+.Ingresar2{
+    display: none;
+}
+
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#heros{
+    background-image: url(../assets/image-hero-mobile.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+
+
+
+.hero h2{
+    margin: 10px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+    color: hsl(0, 0%, 8%);
+}
+
+
+.hero p{
+    margin: 15px;
+    color: hsl(0, 0%, 41%);
+    font-weight: 500;
+    text-align: center;
+}
+
+
+.conteiner-button button{
+    padding: 15px 30px;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    color:  hsl(0, 0%, 98%);
+    background-color: hsl(0, 0%, 8%);
+}
+
+
+.sponsors{
+    margin: 20px 0 ;
+    text-align: center;
+}
+
+.sponsors img{
+    width: 90px;
+}
+
+
+
+
+@media (min-width: 1440px), (min-width: 1325px) {
+    header{
+        font-size: 18px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    main{
+        display: flex;
+        flex-direction:row-reverse;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .Ingresar{
+        display: none;
+    }
+    .Ingresar2{
+        display: flex;
+    }
+    .buttons-1{
+        border: none;
+        background-color: hsl(0, 0%, 98%);
+        margin: 15px;
+        padding: 10px 50px;
+    }
+    .buttons-2{
+        border: 1px solid hsl(0, 0%, 8%);
+        border-radius: 20px;
+        background-color: hsl(0, 0%, 98%);
+        margin: 15px;
+        padding: 10px 30px;
+    }
+    .hero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #heros{
+        background-image: url(../assets/image-hero-desktop.png);
+        background-repeat: no-repeat;
+        height: 80vh;
+        width: 100%;
+        margin-left: 30px;
+    }
+    .hero h2{
+        text-align: left;
+        font-size: 5rem;
+        font-weight: bold;
+        color: hsl(0, 0%, 8%);
+    }
+    .hero p{
+        color: hsl(0, 0%, 41%);
+        font-weight: 500;
+        text-align: left;
+    }
+    .conteiner-button{
+        display: flex;
+        width: 95%;
+        margin-top: 30px;
+    }
+    .conteiner-button button{
+        padding: 15px 30px;
+        width: 100%;
+        border-radius: 20px;
+        border: none;
+        color:  hsl(0, 0%, 98%);
+        background-color: hsl(0, 0%, 8%);
+        transition: 0.5s all;
+    }
+    .conteiner-button button:hover{
+        background-color: hsl(0, 0%, 98%);
+        color: hsl(0, 0%, 8%);
+        border: 0px solid hsl(0, 0%, 8%);
+    }
+    .sponsors{
+        margin-top: 40px;
+        text-align: center;
+    }
+    .sponsors img{
+        width: 110px;
+    }
+    /*Modo oscuro*/
+    .dark{
+        background: hsl(0, 0%, 8%);
+    }
+    .dark h2{    
+        color: hsl(0, 0%, 98%);
+    }
+    .dark .nav-item a:hover{
+        color: hsl(0, 0%, 98%);
+    }
+    .dark .buttons-1 ,.dark .buttons-2{
+        background-color:#212529;
+        color: hsl(0, 0%, 41%);
+        border: none
+    }
+    .dark .buttons-1{
+        border-radius: 20px;
+    }
+    .dark .buttons-1:hover ,.dark .buttons-2:hover{
+        background-color:#212529;
+        color: hsl(0, 0%, 98%);
+    }
+    .dropdown-item.active, .dropdown-item:active{
+        background-color: orange;
+    }
+}
+
+
+
