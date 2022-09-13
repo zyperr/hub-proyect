@@ -1,6 +1,6 @@
 # hub-proyect
 <h2>Hub challenge </h2>
-<h4>Skills in this challenge:</h4>
+<h4>Skills:</h4>
 <img  width="20px" heigth="20px" src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png">
 <p style="font-weight:bold">This is a simple challenge from <a href="https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5">Frontend Mentor</a> and this how do you see in desktop:</p>
 <img src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/yoglpvvo0vggjf9ekjey.jpg">
