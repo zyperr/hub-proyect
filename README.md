@@ -10,4 +10,4 @@
   <img src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/pmszsjnfupepcohsbty9.jpg">
   <h2>Mobile design:</h2>
   <img src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/kjo17v5edphajeppxyix.jpg">
-<p>I did this challenge with mi brother <a href="https://github.com/Irumau">Mauri</a> if u want to see his proyects u can click in his name</p>
+<p>I did this challenge with mi brother <a href="https://github.com/Irumau">Mauri</a> if u want to see his proyects u can click in his name.</p>
