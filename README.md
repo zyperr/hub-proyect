@@ -5,6 +5,8 @@
 <p style="font-weight:bold">How do you see in Mobile design</p>
 <img src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/x4moicebbpnxh2drqr5t.jpg" height="700px">
 <p>And this is how looks like with the active state in both dispositives</p>
-<div style="display:flex">
-<img src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/pmszsjnfupepcohsbty9.jpg" width="500px" height="600px"><img src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/kjo17v5edphajeppxyix.jpg" width="700px" height="600px">
-  </div>
+
+  <h2>Desktop design:</h2>
+  <img src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/pmszsjnfupepcohsbty9.jpg">
+  <h2>Mobile design:</h2>
+  <img src="https://res.cloudinary.com/dz209s6jk/image/upload/q_auto:good,w_900/Challenges/kjo17v5edphajeppxyix.jpg">
